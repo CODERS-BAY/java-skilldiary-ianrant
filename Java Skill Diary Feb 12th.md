@@ -9,7 +9,7 @@ __KNOWLEDGE GAINED:__
 
 
 '''
-   public static void main(String[] args) {
+   
         int maxRows = 9;
 
         for (int k=1; k<=maxRows; k++) {
@@ -22,7 +22,7 @@ __KNOWLEDGE GAINED:__
             System.out.println();
 
         }
-    }
+    
 '''
 
 
@@ -30,7 +30,6 @@ __KNOWLEDGE GAINED:__
 
 
 '''
-    public static void main(String[] args) {
         int maxRows = 9;
         int current = 0;
         //9 rows, from 111111111 to ........9
@@ -45,7 +44,6 @@ __KNOWLEDGE GAINED:__
             }
             System.out.println();
         }
-    }
 '''
 
 
@@ -56,8 +54,6 @@ __KNOWLEDGE GAINED:__
 
 
 '''
-public static void main(String[] args) {
-
         String buzz = "Buzz!";
         String fizz = "Fizz!";
         String fizzBuzz = "FizzBuzz!";
@@ -75,10 +71,7 @@ public static void main(String[] args) {
                 System.out.println(number);
             }
         }
-    }
 '''
-
-     
 
 
 * following I share some code that examplifies what I worked on
