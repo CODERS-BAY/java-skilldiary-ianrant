@@ -7,6 +7,7 @@ __KNOWLEDGE GAINED:__
 * said rows contain 9 characters each, the first row containing 8 dots and 1 numeral "1"
 * each row then contains one fewer dot and one more numeral in ascending order (1,22,333,....)
 
+
 '''
    public static void main(String[] args) {
         int maxRows = 9;
@@ -23,7 +24,11 @@ __KNOWLEDGE GAINED:__
         }
     }
 '''
+
+
 * the same thing in reverse
+
+
 '''
     public static void main(String[] args) {
         int maxRows = 9;
@@ -48,6 +53,8 @@ __KNOWLEDGE GAINED:__
 * I knew that I (technically) had to fool-proof the comparative operations
 * just in case I someone would jumble them; therefor, there may be too many (syntactically)
 * but logically, everthing is considered
+
+
 '''
 public static void main(String[] args) {
 
