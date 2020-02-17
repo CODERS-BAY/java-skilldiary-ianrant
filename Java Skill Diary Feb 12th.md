@@ -23,13 +23,13 @@ __KNOWLEDGE GAINED:__
 
         }
     
-'''
+```
 
 
 * the same thing in reverse
 
 
-'''
+```
         int maxRows = 9;
         int current = 0;
         //9 rows, from 111111111 to ........9
@@ -44,7 +44,7 @@ __KNOWLEDGE GAINED:__
             }
             System.out.println();
         }
-'''
+```
 
 
 * FizzBuzz was easy and fun, however, I had to ask the trainer regarding one thing:
@@ -53,7 +53,7 @@ __KNOWLEDGE GAINED:__
 * but logically, everthing is considered
 
 
-'''
+```
         String buzz = "Buzz!";
         String fizz = "Fizz!";
         String fizzBuzz = "FizzBuzz!";
@@ -71,7 +71,7 @@ __KNOWLEDGE GAINED:__
                 System.out.println(number);
             }
         }
-'''
+```
 
 
 * following I share some code that examplifies what I worked on
