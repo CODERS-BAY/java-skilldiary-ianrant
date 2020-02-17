@@ -8,7 +8,7 @@ __KNOWLEDGE GAINED:__
 * each row then contains one fewer dot and one more numeral in ascending order (1,22,333,....)
 
 
-'''
+```
    
         int maxRows = 9;
 
