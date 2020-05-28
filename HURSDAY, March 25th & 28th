@@ -1,0 +1,33 @@
+## THURSDAY, March 25th & 28th
+
+__KNOWLEDGE GAINED:__
+* I had the assistent trainer give me further mini-assignments
+
+
+
+```
+    public void insertContact (Contact toInsert){
+        try {
+            PreparedStatement ps = conn.prepareStatement(
+                    "insert into contact VALUES (?,?,?,?,?,?)"
+            );
+
+            Contact.IDNUM++;
+
+            ps.setInt(1,Contact.IDNUM);
+            ps.setString(2, toInsert.getFirstname());
+            ps.setString(3, toInsert.getLastname());
+            ps.setInt(4, toInsert.getAge());
+            ps.setString(5, toInsert.getPhone());
+            ps.setString(6,toInsert.getEmail());
+            ps.execute();
+
+        } catch (SQLException throwables) {
+            throwables.printStackTrace();
+        }
+    }
+    
+```
+
+
+* the same thing in reverse
